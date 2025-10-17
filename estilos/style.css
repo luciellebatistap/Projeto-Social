@@ -39,3 +39,22 @@ iframe#tela {
     width:269px ;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right; /* deixa os menus a esquerda */
+}
+
+section#redes-sociais img {
+    width: 50px; /* diminui o icone */
+    margin: 10px; /* dexa separado um do outro */
+    border-radius: 50%; /*deixa o icone arredondado */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;  /* coloquei para quando passa o mouse em cima dos botoes os outros não mexer. */
+    
+}
+
+section#redes-sociais img:hover { /* esse hover aplica estilo quando o curso do mouse passa sobre ele */
+ border: 2px solid white;
+ transform: translate(-3px , -3px); /* a imagem quando passa o mouse vai um pouco pro lado */
+ transition: transform, .5s border 1s; /* a velocidade que ele vai pro lado */
+}
