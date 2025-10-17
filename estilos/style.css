@@ -11,6 +11,7 @@ html, body {
     height: 100vh;
     width: 100vw;
     background-color: black;
+    
 }
 body {
     background: url("../imagens/fundo-madeira.jpg");
@@ -35,9 +36,9 @@ section#telefone {
 iframe#tela {
     position: relative;
     top: 80px;
-    left: 22px;
-    width:269px ;
-    height: 471px;
+    left: 20px;
+    width:268px;
+    height: 490px;
 }
 
 section#redes-sociais {
